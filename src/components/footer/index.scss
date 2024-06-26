@@ -1,0 +1,16 @@
+#footer {
+  padding: 23px;
+  background: #0b0b0b;
+  .footer {
+    display: flex;
+    justify-content: center;
+    p {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20.08px;
+      text-align: left;
+      color: #fff;
+    }
+  }
+}

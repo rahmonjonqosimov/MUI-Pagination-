@@ -1,0 +1,31 @@
+#banner {
+  padding: 75px 0;
+  .banner__warpper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    .banner__card {
+      padding: 40px;
+      border-radius: 22px;
+      background: #f6f6f6;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .banner__text {
+        h4 {
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 43.57px;
+          color: #1e1d1d;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19.36px;
+          color: #8b8e99;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+#hero {
+  padding: 100px 0;
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 30px;
+    place-items: center;
+    .hero__content {
+      display: flex;
+      flex-direction: column;
+      .hero__title {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 80.32px;
+        color: #fff;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20.08px;
+        color: #383638;
+        margin-bottom: 40px;
+      }
+      .serach {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        background: #fff;
+        overflow: hidden;
+        border-radius: 15px;
+        position: relative;
+        input {
+          flex: 1;
+          border: none;
+          padding: 19px 8px 19px 50px;
+          outline: none;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 20.08px;
+          text-align: left;
+          ::placeholder {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20.08px;
+            text-align: left;
+            color: #8b8e99b2;
+          }
+        }
+        button {
+          background: #3858d6;
+          margin: 7px 9px;
+          width: 112px;
+          border: none;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 22.59px;
+          color: #fff;
+          border-radius: 15px;
+          cursor: pointer;
+          outline: none;
+          transition: 0.3s;
+          &:hover {
+            background: #435dc6;
+          }
+          &:active {
+            transform: scale(0.94);
+          }
+        }
+        svg {
+          position: absolute;
+          top: 50%;
+          left: 19px;
+          transform: translate(0, -50%);
+          font-size: 20px;
+          color: #3858d6;
+        }
+      }
+    }
+    .hero__image {
+      justify-self: end;
+    }
+  }
+}
+
+.nav__hero {
+  background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+}

@@ -1,0 +1,70 @@
+#contact {
+  padding: 100px 0;
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 100px;
+    background: #f6f6f6;
+    border-radius: 22px;
+    .contact__text {
+      h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43.57px;
+        color: #1e1d1d;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.36px;
+        color: #8b8e99;
+        margin-bottom: 20px;
+      }
+      .email__input {
+        display: flex;
+        height: 60px;
+        max-width: 443px;
+        width: 100%;
+        border-radius: 15px;
+        background: #fff;
+        overflow: hidden;
+        input {
+          width: 100%;
+          flex: 1;
+          border: none;
+          outline: none;
+          padding: 19px 30px;
+        }
+        button {
+          background: #3858d6;
+          padding: 0 20px;
+          border: none;
+          margin: 8px;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 20.08px;
+          text-align: center;
+          color: #fff;
+          border-radius: 15px;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 20.08px;
+          text-align: left;
+          cursor: pointer;
+          ::placeholder {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20.08px;
+            text-align: left;
+            color: #8b8e99b2;
+          }
+        }
+      }
+    }
+  }
+}
