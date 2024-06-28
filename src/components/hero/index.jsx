@@ -2,8 +2,13 @@ import React from "react";
 import "./index.scss";
 import img from "../../assets/images/hero image.png";
 import { BiSearch } from "react-icons/bi";
+import { useLocation } from "react-router-dom";
 
 const Hero = () => {
+  const { pathname } = useLocation();
+  if (pathname !== "/") {
+    return <></>;
+  }
   return (
     <section id="hero">
       <div className="container">

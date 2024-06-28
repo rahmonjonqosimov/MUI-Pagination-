@@ -40,7 +40,6 @@ const Products = () => {
       </div>
     </div>
   ));
-  console.log(page);
   return (
     <section id="products">
       <div className="products__title">
